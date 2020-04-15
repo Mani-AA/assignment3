@@ -85,7 +85,7 @@ public class Philosopher extends BaseThread {
 
 			think();
 
-			// Say something once is a while 0.618 fibo number
+			// Say something once is a while, around 61.8% chance (fibo number)
 			if (Math.random() < 0.618) {
 				DiningPhilosophers.soMonitor.requestTalk();
 
